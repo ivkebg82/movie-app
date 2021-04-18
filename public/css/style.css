@@ -7,16 +7,33 @@
   padding: 5px 15px;
 }
 .content {
+  width: 50%;
   height: 20px;
   padding: 25px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: hotpink;
+  margin: 15px 0;
 }
 .content:nth-child(2n) {
   background-color: aqua;
+  box-shadow: 5px 5px 10px 5px grey;
 }
+
 .btn {
   background-color: royalblue;
   padding: 20px;
+}
+
+.green {
+  width: 50%;
+  height: 20px;
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hotpink;
+  margin: 15px 0;
+  color: green;
 }
